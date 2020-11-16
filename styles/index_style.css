@@ -1,0 +1,57 @@
+/* Main */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 100%;
+}
+
+.content .title {
+    font-size: 90px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.content .texto {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.content .arrow {
+    height: 100px;
+}
+
+.content .attendece {
+    height: 500px;
+}
+
+.content .location_map {
+    margin-top: 10px;
+}
+
+.content .opening_hours {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.content .opening_hours span {
+    font-family: cursive;
+}
+
+/* Footer */
+
+.footer {
+    background: rgb(226, 175, 218);
+    margin-top: 500px;
+    height: 30px;
+ 
+}
+
+.footer .footer_text {
+    font-size: 10px;
+}
+

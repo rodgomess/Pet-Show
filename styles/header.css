@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*, input, button {
+    font-family: cursive;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Header */
+
+.menu {
+    background-color: rgb(226, 175, 218);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__logo .logo  {
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.menu__section {
+    padding-right: 50px;
+    padding-top: 25px;
+}
+
+.menu__section a {
+    color: black;
+    padding-right: 35px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.menu__section a:hover {
+    font-size: 31px;
+}
