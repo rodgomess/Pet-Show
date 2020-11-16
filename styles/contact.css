@@ -1,0 +1,59 @@
+main {
+    margin-top: 200px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title h1 {
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+form label.pattern, textarea {
+    font-size: 25px;
+}
+
+form input.pattern, textarea {
+    width: 700px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: rgb(80, 80, 80);
+}
+
+form input.pattern {
+    font-size: 25px;
+}
+
+form input {
+    height: 50px;
+}
+
+.checkbox {
+    margin: 30px 0;
+}
+
+.send {
+    background-color: rgb(226, 175, 218);
+    width: 200px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.send:hover { 
+    background-color: rgb(221, 139, 209);
+    transform: scale(1.05);
+}

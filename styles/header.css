@@ -44,5 +44,18 @@ html, body {
 }
 
 .menu__section a:hover {
-    font-size: 31px;
+    font-size: 32px;
+}
+
+/* Footer */
+
+.footer {
+    background: rgb(226, 175, 218);
+    margin-top: 300px;
+    height: 30px;
+ 
+}
+
+.footer .footer_text {
+    font-size: 10px;
 }

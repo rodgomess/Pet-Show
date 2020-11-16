@@ -34,24 +34,6 @@
 .content .opening_hours {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 130px;
     font-size: 30px;
 }
-
-.content .opening_hours span {
-    font-family: cursive;
-}
-
-/* Footer */
-
-.footer {
-    background: rgb(226, 175, 218);
-    margin-top: 500px;
-    height: 30px;
- 
-}
-
-.footer .footer_text {
-    font-size: 10px;
-}
-

@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Contato - Pet Show</title>
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
     <header class="menu">
@@ -14,10 +15,39 @@
         <div class="menu__section">
             <a href="index.html">Menu</a>
             <a href="services.html">Serviços</a>
-            <a href="produts.html">Produtos</a>
             <a href="contact.html">Contato</a>
         </div>
     </header>
-    
+
+    <main class="content">
+        <div class="title">
+            <h1>Entre em Contato com a gente !</h1>
+        </div>
+        <form>
+            <label class="pattern" for="name">Nome:</label>
+            <input class="pattern" type="text" id="name" required>
+
+            <label class="pattern" for="email">Email:</label>
+            <input class="pattern" type="email" id="email" required>
+
+            <label class="pattern" for="cellphone">Telefone:</label>
+            <input class="pattern" type="tell" id="cellphone" required>
+
+            <label class="pattern" for="massage">Mensagem:</label>
+            <textarea id="massage" cols="10" rows="3" required></textarea>
+
+            <label class="pattern"><input class="checkbox" type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+        
+            <input type="submit" value="Enviar" class="send">
+
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_text">
+            <h1>Feito por Rodrigo Gomes 2020</h1>
+        </div>
+    </footer>
+
 </body>
 </html>
